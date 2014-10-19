@@ -36,5 +36,8 @@
     "css": false,
     "js": false,
     "task": "grunt"
+  },
+  "engines": {
+    "node": "0.10.x"
   }
 }
