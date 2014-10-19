@@ -15,7 +15,12 @@
 </head>
 <body>
 <div id="wrapper" class="content">
-    {+body /}
+  <div ng-controller="AppCtrl" layout="vertical" layout-fill>
+    <section layout="horizontal" flex>
+      {>"layouts/sidenav" /}
+      {>"layouts/content" /}
+    </section>
+  </div>
 </div>
 <script src="/js/app.js"></script>
 </body>

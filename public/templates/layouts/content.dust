@@ -1,0 +1,16 @@
+<md-content flex>
+  <md-toolbar class="md-theme-dark">
+    <div class="md-toolbar-tools">
+      <div>
+        <md-button noink class="md-theme-dark md-button-colored" ng-click="toggleLeft()" hide-md>
+          <md-icon icon="/images/ic_menu_24px.svg">
+          </md-icon>
+        </md-button>
+      </div>
+      <span class="md-flex">{{ title }}</span>
+    </div>
+  </md-toolbar>
+  <div layout="vertical" layout-fill layout-align="center center">
+    {+body /}
+  </div>
+</md-content>

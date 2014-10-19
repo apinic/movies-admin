@@ -1,5 +1,22 @@
 'use strict';
-angular.module('Admin', ['ngMaterial'])
+angular.module('Admin', ['ngMaterial', 'ngRoute'])
+
+.config(['$routeProvider', function($routeProvider) {
+  $routeProvider
+  .when('/', {
+    templateUrl: 'templates/home.dust'
+  })
+  .when('/movies', {
+    templateUrl: 'templates/movie.dust'
+  })
+  .when('/theater', {
+    templateUrl: 'templates/theater.dust'
+  })
+  .otherwise({
+    redirectTo: '/',
+    templateUrl: 'templates/home.dust'
+  });
+}])
 
 .factory('titleService', function($rootScope) {
   var titleService = {};
@@ -28,13 +45,16 @@ angular.module('Admin', ['ngMaterial'])
 .controller('LeftCtrl', function($scope, $timeout, $mdSidenav, titleService) {
   $scope.main = [
     {
-      caption: 'Inicio'
+      caption: 'Inicio',
+      url: '/'
     },
     {
-      caption: 'Películas'
+      caption: 'Películas',
+      url: '/movies'
     },
     {
-      caption: 'Cines'
+      caption: 'Cines',
+      url: '/theater'
     }
   ];
 

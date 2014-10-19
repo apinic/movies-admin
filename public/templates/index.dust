@@ -1,35 +1,5 @@
 {>"layouts/master" /}
 
 {<body}
-<div ng-controller="AppCtrl" layout="vertical" layout-fill>
-<section layout="horizontal" flex>
-  <md-sidenav class="md-sidenav-left md-whiteframe-z2" component-id="left" is-locked-open="$media('md')">
-    <md-toolbar class="md-theme-indigo">
-    </md-toolbar>
-    <md-content ng-controller="LeftCtrl">
-      <div ng-repeat="item in main">
-        <md-button class="menu-item menu-title" ng-click="close(item.caption)" >
-          {{ item.caption }}
-        </md-button>
-      </div>
-    </md-content>
-  </md-sidenav>
-
-  <md-content flex>
-    <md-toolbar class="md-theme-dark">
-      <div class="md-toolbar-tools">
-        <div>
-          <md-button noink class="md-theme-dark md-button-colored" ng-click="toggleLeft()" hide-md>
-            <md-icon icon="/images/ic_menu_24px.svg">
-            </md-icon>
-          </md-button>
-        </div>
-        <span class="md-flex">{{ title }}</span>
-      </div>
-    </md-toolbar>
-    <div layout="vertical" layout-fill layout-align="center center">
-    </div>
-  </md-content>
-</section>
-</div>
+  <div ng-view></div>
 {/body}

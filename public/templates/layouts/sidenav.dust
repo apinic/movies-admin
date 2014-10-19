@@ -1,0 +1,11 @@
+<md-sidenav class="md-sidenav-left md-whiteframe-z2" component-id="left" is-locked-open="$media('md')">
+  <md-toolbar class="md-theme-indigo">
+  </md-toolbar>
+  <md-content ng-controller="LeftCtrl">
+    <div ng-repeat="item in main">
+      <md-button class="menu-item menu-title" ng-href="#{{ item.url }}" ng-click="close(item.caption)" >
+        {{ item.caption }}
+      </md-button>
+    </div>
+  </md-content>
+</md-sidenav>

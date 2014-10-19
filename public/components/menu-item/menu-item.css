@@ -52,7 +52,7 @@ md-button {
   border-radius: 0;
 }
 
-.menu-item.menu-title button {
+.menu-item.menu-title a {
   text-align: left !important;
   padding: 16px 25px;
 }

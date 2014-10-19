@@ -1,6 +1,6 @@
 {
   "name": "menu-item",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "homepage": "https://github.com/paulomcnally/menu-item",
   "authors": [
     "Paulo McNally <paulomcnally@gmail.com>"
@@ -22,11 +22,11 @@
     "test",
     "tests"
   ],
-  "_release": "0.0.3",
+  "_release": "0.0.4",
   "_resolution": {
     "type": "version",
-    "tag": "v0.0.3",
-    "commit": "bfee820f567fda97d4073334c0c27f07a36d43bf"
+    "tag": "v0.0.4",
+    "commit": "e22db96db799a7f6a1bc597b6e3ceef18cad3dc1"
   },
   "_source": "git://github.com/paulomcnally/menu-item.git",
   "_target": "*",
