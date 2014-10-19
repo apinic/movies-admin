@@ -1,0 +1,25 @@
+{
+  "name": "menu-item",
+  "version": "0.0.3",
+  "homepage": "https://github.com/paulomcnally/menu-item",
+  "authors": [
+    "Paulo McNally <paulomcnally@gmail.com>"
+  ],
+  "description": "CSS tyle Menu Item",
+  "main": "main.css",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "mene",
+    "item"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

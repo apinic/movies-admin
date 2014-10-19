@@ -1,0 +1,58 @@
+.menu-item {
+  background: none;
+  border-width: 0;
+  cursor: pointer;
+  display: block;
+  color: #333;
+  font-size: inherit;
+  line-height: 34px;
+  opacity: 1;
+  margin: 0;
+  outline: none;
+  padding: 0;
+  position: relative;
+  text-align: left !important;
+  text-decoration: none;
+  width: 100%;
+  z-index: 1;
+  -webkit-transition: 0.2s ease-in-out;
+  -webkit-transition-property: max-height, background-color, opacity;
+  -moz-transition: 0.2s ease-in-out;
+  -moz-transition-property: max-height, background-color, opacity;
+  transition: 0.2s ease-in-out;
+  transition-property: max-height, background-color, opacity;
+}
+.menu-item.ng-hide {
+  max-height: 0;
+  opacity: 0;
+}
+.menu-item:hover, .menu-item:focus {
+  color: #999;
+}
+.menu-item.menu-sub-item.active {
+  background-color: #eeeeee;
+  font-weight: bold;
+  color: #4285f4;
+}
+.menu-item.menu-title {
+  color: #888;
+  font-size: 16px;
+  text-align: left !important;
+  text-transform: uppercase;
+}
+.menu-item.menu-title.active {
+  font-weight: bold;
+}
+.menu-item.menu-title:hover,
+.menu-item.menu-title:focus {
+  color: #AAA;
+}
+
+md-button {
+  border-radius: 0;
+}
+
+.menu-item.menu-title button {
+  text-align: left !important;
+  padding: 16px 25px;
+}

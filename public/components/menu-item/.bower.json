@@ -1,0 +1,34 @@
+{
+  "name": "menu-item",
+  "version": "0.0.3",
+  "homepage": "https://github.com/paulomcnally/menu-item",
+  "authors": [
+    "Paulo McNally <paulomcnally@gmail.com>"
+  ],
+  "description": "CSS tyle Menu Item",
+  "main": "main.css",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "mene",
+    "item"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "0.0.3",
+  "_resolution": {
+    "type": "version",
+    "tag": "v0.0.3",
+    "commit": "bfee820f567fda97d4073334c0c27f07a36d43bf"
+  },
+  "_source": "git://github.com/paulomcnally/menu-item.git",
+  "_target": "*",
+  "_originalSource": "menu-item"
+}
